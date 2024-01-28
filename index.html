@@ -16,9 +16,9 @@
                     <img src="./Images/ProfCodeStudiosBannerCropped.png" class="logo">
                     <ul id="sidemenu">
                         <li><a href="#header">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li> 
-                        <li><a href="#contact">Contact</a></li>
                         <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
                     <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -29,6 +29,36 @@
                 </div>
             </div>
         </div>
+
+        <!--------- Contact ---------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fas fa-paper-plane"></i>TGarayua@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>(347)241-6157</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ProfCodeStudios" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/prof-code-studios" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div>
+                            <a href="Images/Prof Code Studios Mission Statement.pdf" target="_blank" rel="noopener noreferrer" class="btn btn2">View Our Mission Statement</a>
+                        <a href="https://www.termsfeed.com/live/4639189e-4e45-42f0-a811-be32c24a391b" target="_blank" rel="noopener noreferrer" class="btn btn2">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
         <!--------- About ---------->
         <div id="about">
             <div class="row">
@@ -79,54 +109,26 @@
                         <i class="fas fa-funnel-dollar"></i>
                         <h2>Marketing</h2>
                         <p>At Prof Code Studios, we recognize that each business is unique, with its own set of challenges and opportunities. Our tailored marketing solutions are crafted to address these specific needs and provide tangible, measurable results. By choosing Prof Code Studios as your marketing partner, you are not just investing in services, you are securing a strategic ally dedicated to driving your business forward. Let us be the catalyst for your growth, helping you navigate the complex landscape of marketing to achieve lasting success.</p>
-                        <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fas fa-laptop-code"></i>
                         <h2>Web Design</h2>
                         <p>At Prof Code Studios, we understand that your website is the digital storefront of your business, and its design is instrumental in shaping the online perception of your brand. By choosing Prof Code Studios for your web design needs, you are investing in a partner that is dedicated to creating a digital presence that not only meets but exceeds your expectations. Let us transform your website into a powerful tool for customer engagement, conversion, and overall business success.</p>
-                        <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fas fa-mobile-alt"></i>
                         <h2>Mobile App Development</h2>
                         <p>In the era of mobile technology, having a robust mobile app is not just a luxury but a strategic necessity for businesses. Mobile app development goes beyond creating a convenient tool for users, it's about delivering an immersive experience that fosters customer loyalty and drives engagement. By choosing Prof Code Studios for your mobile app development needs, you are investing in a partner that is dedicated to turning your app vision into a reality. Let us be the architects of your mobile success, creating apps that not only meet but exceed the expectations of your users, driving engagement, loyalty, and business growth.</p>
-                        <a href="#">Learn more</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!--------- Contact ---------->
-        <div id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub-title">Contact Us</h1>
-                        <p><i class="fas fa-paper-plane"></i>TGarayua@gmail.com</p>
-                        <p><i class="fas fa-phone-square-alt"></i>(347)241-6157</p>
-                        <div class="social-icons">
-                            <a href="https://www.facebook.com/ProfCodeStudios" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/company/prof-code-studios" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                        <a href="Images/Prof Code Studios Mission Statement.pdf" target="_blank" rel="noopener noreferrer" class="btn btn2">View Our Mission Statement</a>
-                    </div>
-                    <div class="contact-right">
-                        <form name="submit-to-google-sheet">
-                            <input type="text" name="Name" placeholder="Your Name" required>
-                            <input type="email" name="Email" placeholder="Your Email" required>
-                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
-                            <button type="submit" class="btn btn2">Submit</button>
-                        </form>
-                        <span id="msg"></span>
-                    </div>
-                </div>
-            </div>
-            <!--------- Copyright ---------->
-            <div class="copyright">
-                <p>Copyright © Prof Code Studios. Made with <i class="fas fa-heart"></i> by Prof Code Studios</p>
-            </div>
+        <!--------- Copyright ---------->
+        <div class="copyright">
+            <p>Copyright © Prof Code Studios. Made with <i class="fas fa-heart"></i> by Prof Code Studios</p>
         </div>
+    </div>
 
         <script>
             var tablinks = document.getElementsByClassName('tab-links');
