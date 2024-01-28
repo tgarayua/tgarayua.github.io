@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prof Code Studios</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6eeaaa33af.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--------- Navbar ---------->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/ProfCodeStudiosBannerCropped.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li> 
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, Welcome to <span>Prof Code Studios</span><br></h1>
+                    <p>Your ally in Marketing and Software Solutions</p>
+                </div>
+            </div>
+        </div>
+        <!--------- About ---------->
+        <div id="about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ThomasPic.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>
+                        Welcome to Prof Code Studios, your digital ally in business growth! I'm Thomas Garayua, the founder and visionary behind our mission to empower businesses on their journey to success.
+                        <br><br>
+
+                        Our expert team crafts tailored marketing strategies that resonate with your audience. We understand that every business is unique, and our approach reflects that. Let us guide you through the intricate world of marketing, ensuring your message not only stands out but leaves a lasting impact.<br><br>
+                        
+                        With a strong understanding of both marketing strategy and app development, We are committed to delivering unparalleled results for your business. Let's embark on a journey of innovation together, where we not only meet but exceed your digital aspirations. Join hands with Prof Code Studios, where creativity meets functionality, and let's elevate your business to new heights!
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('marketing')">Marketing</p>
+                            <p class="tab-links"onclick="opentab('web')">Web Design</p>
+                            <p class="tab-links"onclick="opentab('app')">App Development</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="marketing">
+                            <ul>
+                                <li><span>Marketing and Social Media Mastery</span><br>Navigate the social media landscape with confidence. Our social media marketing strategies are crafted to build meaningful connections, spark conversations, and turn followers into loyal customers. It's not just about presence; it's about influence.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="web">
+                            <ul>
+                                <li><span>Web Development Excellence</span><br>In the virtual realm, your website is your storefront. Our web development services focus on creating visually stunning and functionally robust online experiences. We blend design finesse with cutting-edge technology, ensuring your digital presence is as remarkable as your brand.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="app">
+                            <ul>
+                                <li><span>Innovative App Development</span><br>Transforming concepts into captivating experiences is our forte. Whether it's Android or iOS, our mobile app development services bring your ideas to life. We're not just developers; we're architects of innovation, designing apps that engage, inspire, and propel your business forward.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------- Services ---------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Our Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-funnel-dollar"></i>
+                        <h2>Marketing</h2>
+                        <p>At Prof Code Studios, we recognize that each business is unique, with its own set of challenges and opportunities. Our tailored marketing solutions are crafted to address these specific needs and provide tangible, measurable results. By choosing Prof Code Studios as your marketing partner, you are not just investing in services, you are securing a strategic ally dedicated to driving your business forward. Let us be the catalyst for your growth, helping you navigate the complex landscape of marketing to achieve lasting success.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-laptop-code"></i>
+                        <h2>Web Design</h2>
+                        <p>At Prof Code Studios, we understand that your website is the digital storefront of your business, and its design is instrumental in shaping the online perception of your brand. By choosing Prof Code Studios for your web design needs, you are investing in a partner that is dedicated to creating a digital presence that not only meets but exceeds your expectations. Let us transform your website into a powerful tool for customer engagement, conversion, and overall business success.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-mobile-alt"></i>
+                        <h2>Mobile App Development</h2>
+                        <p>In the era of mobile technology, having a robust mobile app is not just a luxury but a strategic necessity for businesses. Mobile app development goes beyond creating a convenient tool for users, it's about delivering an immersive experience that fosters customer loyalty and drives engagement. By choosing Prof Code Studios for your mobile app development needs, you are investing in a partner that is dedicated to turning your app vision into a reality. Let us be the architects of your mobile success, creating apps that not only meet but exceed the expectations of your users, driving engagement, loyalty, and business growth.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------- Contact ---------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fas fa-paper-plane"></i>TGarayua@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>(347)241-6157</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ProfCodeStudios" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/prof-code-studios" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="Images/Prof Code Studios Mission Statement.pdf" target="_blank" rel="noopener noreferrer" class="btn btn2">View Our Mission Statement</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <!--------- Copyright ---------->
+            <div class="copyright">
+                <p>Copyright © Prof Code Studios. Made with <i class="fas fa-heart"></i> by Prof Code Studios</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openmenu(){
+                sidemenu.style.right = "0"
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxrAgk-b-s1Kgp-7EHmBmW0Fo8QYSn6q6Ehdl3BAXT2olpcxozi5BPyEdicueUtjT8mNA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =  document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Massage sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
