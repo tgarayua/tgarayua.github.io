@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prof Code Studios</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6eeaaa33af.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!--------- Navbar ---------->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="./Images/ProfCodeStudiosBannerCropped.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li> 
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, Welcome to <span>Prof Code Studios</span><br></h1>
+                    <p>Crafting Exceptional Mobile Experiences at Prof Code Studios</p>
+                </div>
+            </div>
+        </div>
+
+        <!--------- About ---------->
+        <div id="about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/Android-vs-iOS-scaled.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>
+                        At Prof Code Studios, we are not just developers; we are architects of digital innovation. Our studio stands at the forefront of mobile application development, specializing in crafting sophisticated and user-centric solutions that elevate brands and transform ideas into tangible realities. With a team of seasoned professionals, we bring together a rich tapestry of skills, creativity, and technical expertise to deliver cutting-edge applications across iOS and Android platforms.
+                        <br><br>
+
+                        Our expert team crafts tailored made prototyping and wireframing that resonate with your goals. We understand that every app idea is unique, and our approach reflects that. Let us guide you through the intricate world of engineering, ensuring your mobile app not only stands out but leaves a lasting impact.<br><br>
+                        
+                        With a strong understanding of both iOS development and Android development, We are committed to delivering unparalleled results for your application. Let's embark on a journey of innovation together, where we not only meet but exceed your digital aspirations. Join hands with Prof Code Studios, where creativity meets functionality, and let's elevate your business to new heights!
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('mission')">Misson</p>
+                            <p class="tab-links"onclick="opentab('key-values')">Key Values</p>
+                            <p class="tab-links"onclick="opentab('why')">Why Choose Prof Code Studios</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="mission">
+                            <ul>
+                                <li><span>Mission</span><br>Our mission at Prof Code Studios is to empower businesses, entrepreneurs, and visionaries with transformative digital solutions that leave a lasting impact. We believe in the potential of every idea, and our mission is to harness technology to turn those ideas into powerful, user-friendly, and market-ready mobile applications. We strive to be more than just a development studio; we aim to be strategic partners on your digital journey, offering not only technical proficiency but also valuable insights, collaborative ideation, and a commitment to excellence at every stage of the development process.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="key-values">
+                            <ul>
+                                <li><span>Key Values</span><br><li><Strong>Innovation:</Strong> We are driven by a passion for innovation, constantly exploring new technologies, design trends, and development methodologies to bring fresh and creative solutions to our clients.</li><br>
+
+                                    <li><strong>Collaboration:</strong> Our collaborative approach is at the heart of our success. We work closely with our clients, understanding their goals, and fostering an environment of open communication to ensure that their vision is translated into a digital masterpiece.</li><br>
+                                    
+                                    <li><strong>Excellence:</strong> We uphold the highest standards of excellence in every aspect of our work – from the initial consultation to the final deployment. Quality assurance, user experience design, and technical precision are non-negotiable elements in our commitment to delivering exceptional results.</li><br>
+                                    
+                                    <li><strong>Design:</strong> Recognizing the pivotal role of user experience, we prioritize user-centric design in every application we create. We believe that intuitive and engaging interfaces are key to the success of any digital product.</li><br>
+                                    
+                                    <li><strong>Strategic Guidance:</strong> Beyond development, we offer strategic guidance to our clients. Our consultation services aim to break down the complex journey of app development, providing clear roadmaps and actionable steps to transform ideas into fully realized applications.</li><br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="why">
+                            <ul>
+                                <li><span>Why Choose Prof Code Studios</span><br><li><strong>Expertise:</strong> Our team comprises skilled developers, designers, and strategists with a wealth of experience in the ever-evolving landscape of mobile application development.</li><br>
+
+                                    <ul><strong>Tailored Solutions:</strong> We understand that every project is unique. Our approach involves tailoring solutions to meet the specific needs and goals of our clients, ensuring that the end product reflects their vision.</ul><br>
+                                    
+                                    <li><strong>End-to-End Services:</strong> Prof Code Studios is your one-stop destination for end-to-end mobile application development. From concept and design to development, testing, and deployment, we handle every stage of the process with precision.</li><br>
+                                    
+                                    <li>Join us at Prof Code Studios, where innovation meets expertise, and let's embark on a digital journey to turn your ideas into impactful mobile applications.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------- Services ---------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Our Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Prototyping and Wireframing</h2>
+                        <p>Navigate the path from idea to a polished mobile application with Prof Code Studios' comprehensive consultation service. Our expert team is dedicated to breaking down the intricate steps involved in bringing your app from inception to completion. Through detailed consultations, we collaboratively explore your vision, identify key objectives, and strategize a roadmap tailored to your project. From ideation and market research to technical feasibility and user experience design, our consultation service ensures that every step is meticulously planned. Trust Prof Code Studios to provide you with a clear and strategic roadmap, guiding you through the complexities of app development and turning your concepts into a successful and impactful reality.</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-apple"></i>
+                        <h2>iOS App Development</h2>
+                        <p>Embark on a journey of innovation and excellence with Prof Code Studios' iOS mobile development service. As specialists in crafting bespoke iOS applications, our seasoned team utilizes the latest technologies, including Swift, SwiftUI, and Objective-C, to bring your unique ideas to life. From concept to deployment, our collaborative approach ensures that your vision takes center stage. We prioritize not only technological sophistication but also a seamless and intuitive user experience. Proficient in the intricacies of iOS development, we design and build apps that stand out in the competitive app landscape. Choose Prof Code Studios for an iOS mobile app that combines cutting-edge technology with a user-centric approach, setting your brand apart with sophistication and functionality.</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-android"></i>
+                        <h2>Android App Development</h2>
+                        <p>Immerse your brand in the world of cutting-edge mobile applications with Prof Code Studios' premier Android development service. Our expert team specializes in crafting bespoke Android applications, leveraging the latest technologies and frameworks to bring your ideas to life. Proficient in Java and Kotlin, we ensure your app not only showcases technological prowess but also delivers a seamless and intuitive user experience. From concept to deployment, our collaborative approach places your vision at the forefront, ensuring that your unique requirements are met with precision. Beyond functionality, we prioritize excellence in design, seamless integration, and adherence to industry best practices. Choose Prof Code Studios for an Android mobile app that stands out in the dynamic landscape, offering sophistication, user-centricity, and technological innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------- Contact ---------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fas fa-paper-plane"></i>ProfCodeStudios@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>(347) 241-6157</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ProfCodeStudios" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/prof-code-studios" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div>
+                            <a href="Images/Prof Code Studios Mission Statement.pdf" target="_blank" rel="noopener noreferrer" class="btn btn2">View Our Mission Statement</a>
+                        <a href="https://www.termsfeed.com/live/4639189e-4e45-42f0-a811-be32c24a391b" target="_blank" rel="noopener noreferrer" class="btn btn2">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+        <!--------- Copyright ---------->
+        <div class="copyright">
+            <p>Copyright © Prof Code Studios. Made with <i class="fas fa-heart"></i> by Prof Code Studios</p>
+        </div>
+    </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openmenu(){
+                sidemenu.style.right = "0"
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxrAgk-b-s1Kgp-7EHmBmW0Fo8QYSn6q6Ehdl3BAXT2olpcxozi5BPyEdicueUtjT8mNA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =  document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Massage sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
